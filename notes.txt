@@ -16,4 +16,64 @@ Methodology:
 
 Repo:
     https://github.com/tkmagesh/Amazon-Flutter-May-2023
+
+
+Flutter?
+    Framework for cross platform applications
+        ios
+        android
+        web
+        desktop
+
+    History
+        Cordova
+
 Dart?
+
+
+Image
+SVG Data 
+    line, x, y, x1, y1, color
+
+
+
+ARE YOU GUYS THERE?
+PLS GIVE ME A SHOUTOUT ONCE YOU ARE BACK!
+
+99019-11221
+
+tkmagesh77@gmail.com
+
+Dart?
+
+    1. type safe
+        dynamic also supported
+    2. nullable types
+    3. improved set of data types
+            num
+                int
+                double
+            string
+            boolean
+    4. Better OO support
+        No support for interfaces
+    5. Also functional 
+        Functions as first class citizens
+            functions can be assiged to varibles
+            functions can be passed as arguments to other functions
+            funtions can be returned as return values
+            
+    6. Better collections supports
+        Support for generics
+        -List,
+        -Map,
+        -Set,
+    7. Better support for async programming
+        - Future
+        - Stream
+        - Isolated
+
+
+    
+
+
