@@ -1,0 +1,17 @@
+Magesh Kuppan
+
+
+Name
+Primary Skillset
+Experience in Flutter?
+
+Schedule:
+    Lunch Break : 1:30 PM (1 hour)
+    Tea Break : 4:00 PM (15 mins)
+    Wind up : 5:30 PM
+
+Methodology:
+    No powerpoints
+    Lots of practice
+
+Dart?
