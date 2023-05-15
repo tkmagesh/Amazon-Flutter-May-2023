@@ -69,4 +69,14 @@ void main(){
   var cityDesc = """Hyderabad is the capital of Telangana
   It is an IT HUB of the country""";
   print(cityDesc);
+
+  // enum type
+  enum Category {
+    Stationary,
+    Utencil,
+    Electronics
+  }
+  
+  Category productCategory = Category.Stationary;
+  print(productCategory);
 }
