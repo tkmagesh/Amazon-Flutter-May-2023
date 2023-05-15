@@ -103,6 +103,63 @@ void main(){
 
   print("Using reduce");
   var sum = nos.reduce((n1, n2) => n1 + n2);
-  
+
   print("sum : $sum");
+
+  print("Named paramters");
+  // print(multiply(x : 100, y : 200));
+  // print(multiply(x : 300));
+  // print(multiply(y : 200));
+  print(multiply());
+
+  // Using classes
+  // var p = new Person("Magesh", "Kuppan");
+  var p = new Person();
+  p.full_name = "Magesh Kuppan";
+  // print(p.full_name);
+  p.display();
+}
+
+// using default arguments
+int multiply({ int x = 10,  int y = 20}){
+  return x * y;
+}
+
+//using "required"
+/* 
+int multiply({required int x, required int y}){
+  return x * y;
+} 
+*/
+
+class Person{
+  // Instance variables
+  String first_name = '';
+  String last_name = '';
+
+  // constructor
+  /* 
+  Person(String first_name, String last_name){
+    this.first_name = first_name;
+    this.last_name = last_name;
+  } 
+  */
+
+  // named constructor
+  // Person(this.first_name, this.last_name);
+
+  //getter
+  String get full_name {
+    return "${this.first_name} ${this.last_name}";
+  }
+
+  void set full_name(String value){
+    var names = value.split(' ');
+    this.first_name = names[0];
+    this.last_name = names[1];
+  }
+
+  display(){
+    print("first name = ${this.first_name}, last name = ${this.last_name}");
+  }
 }
