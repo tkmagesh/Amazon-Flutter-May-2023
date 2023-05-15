@@ -88,19 +88,21 @@ void main(){
   var nos = [3,1,4,2,5];
 
   print("Using forEach");
+  /* 
   nos.forEach((int no){
     print("no : $no");
-  });
+  }); 
+  */
+  // using arrow function
+  nos.forEach((no) => print("no : $no"));
+  
 
   print("Using where");
-  var evenNos = nos.where((int no){
-    return no % 2 == 0;
-  }).toList();
+  var evenNos = nos.where((no) => no % 2 == 0).toList();
   print(evenNos);
 
   print("Using reduce");
-  var sum = nos.reduce((int n1, int n2){
-    return n1 + n2;
-  });
+  var sum = nos.reduce((n1, n2) => n1 + n2);
+  
   print("sum : $sum");
 }
