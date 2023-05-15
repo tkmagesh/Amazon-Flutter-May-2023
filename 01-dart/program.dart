@@ -1,3 +1,5 @@
+enum Color { red, green, blue }
+enum Category { Stationary, Utencil, Electronics }
 
 void main(){
   /* variable declarations */
@@ -71,12 +73,8 @@ void main(){
   print(cityDesc);
 
   // enum type
-  enum Category {
-    Stationary,
-    Utencil,
-    Electronics
-  }
   
+
   Category productCategory = Category.Stationary;
   print(productCategory);
 }
