@@ -77,4 +77,30 @@ void main(){
 
   Category productCategory = Category.Stationary;
   print(productCategory);
+
+  //List (aka Arrays)
+  // List<double> scores = new List<double>(); // to be fixed
+  var scores = [97.5,99,23,78.5];
+  print(scores[0]);
+  print(scores[1]);
+
+  // List manipulation
+  var nos = [3,1,4,2,5];
+
+  print("Using forEach");
+  nos.forEach((int no){
+    print("no : $no");
+  });
+
+  print("Using where");
+  var evenNos = nos.where((int no){
+    return no % 2 == 0;
+  }).toList();
+  print(evenNos);
+
+  print("Using reduce");
+  var sum = nos.reduce((int n1, int n2){
+    return n1 + n2;
+  });
+  print("sum : $sum");
 }
