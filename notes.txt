@@ -74,6 +74,20 @@ Dart?
         - Isolated
 
 
+
+Ajax (Http) Requests (singular)
+Timer Functions
+    setTimeout (singular)
+    setInterval (stream)
+Web Sockets (stream)
+Server Sent Events (stream)
+User Actions (streams)
+
+Callback (streams)
+EventEmitter (streams)
+Promises (singular)
+Async Await (singular)
+Observables (rx.js) (streams)
     
 
 
